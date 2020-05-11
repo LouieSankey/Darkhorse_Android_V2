@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity.BuyAgainst">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2"
+        android:layout_centerHorizontal="true"
+        android:background="#76cff8"
+        android:layout_below="@+id/textView59">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#303030"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="4dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:layout_weight=".8"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"
+                android:text="      "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Davis"
+                android:id="@+id/playerNameAbrev"
+                android:layout_column="1"
+                android:layout_weight="1.1"
+                android:textSize="16sp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView8"
+                android:layout_column="2"
+                android:layout_weight=".1"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Curry"
+                android:id="@+id/opponentNameAbrev"
+                android:layout_column="3"
+                android:layout_weight=".8"
+                android:textSize="16sp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView15"
+                android:layout_column="5"
+                android:text="Price"
+                android:textSize="16sp"
+                android:layout_weight="1.2"
+                android:textColor="#ffffff"/>
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/oppImageView"
+        android:src="@drawable/curryst01"
+        android:adjustViewBounds="true"
+        android:paddingRight="5dp"
+        android:scaleType="fitEnd"
+        android:layout_below="@+id/oppUsername"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stephen Curry"
+        android:id="@+id/oppName"
+        android:textSize="19sp"
+        android:layout_above="@+id/textView82"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="$7,700"
+        android:id="@+id/oppPrice"
+        android:textSize="15sp"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="$1,000"
+        android:id="@+id/oppCap"
+        android:textSize="15sp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"/>
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+        android:layout_below="@+id/tableLayout2"
+        android:layout_centerHorizontal="true"
+        android:groupIndicator="@null"
+        android:layout_above="@+id/textView14"
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH BUYING"
+        android:id="@+id/finishButton"
+        android:padding="0dp"
+        android:layout_above="@+id/buyAgainstBuyEnding"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:padding="2dp"
+        android:text="Against"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buyForPlayerName"
+        android:background="@color/material_grey_800"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Anthony Davis"
+        android:id="@+id/buyForPlayerName"
+        android:textSize="19sp"
+        android:layout_below="@+id/textView39"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="username"
+        android:id="@+id/oppUsername"
+        android:textColor="@color/draftedOpponent"
+        android:textSize="14sp"
+        android:gravity="center_horizontal|right"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Buy Stats For:"
+        android:id="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Compare Avgs. / Buy"
+        android:id="@+id/textView59"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:padding="2dp"
+        android:layout_below="@+id/oppImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/material_grey_800"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" $2,300 "
+            android:id="@+id/dynamicFundsTextView"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:textColor="@color/user"
+            android:gravity="center_horizontal"
+            android:layout_alignBottom="@+id/buyForPlayerName"
+            android:layout_alignRight="@+id/oppImageView"
+            android:layout_alignEnd="@+id/oppImageView"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Funds Remaining: "
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/oppImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Game Price: "
+        android:id="@+id/textView4"
+        android:textSize="15sp"
+        android:layout_above="@+id/oppCap"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView14"
+        android:background="#76cff8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/finishButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00:30:00"
+        android:id="@+id/buyAgainstBuyEnding"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Match: 1/7"
+        android:id="@+id/textView38"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="HTM @ AWT"
+        android:id="@+id/textView82"
+        android:layout_above="@+id/oppPrice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Buying Closes: "
+        android:id="@+id/textView40"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/buyAgainstBuyEnding"
+        android:layout_toLeftOf="@+id/buyAgainstBuyEnding"
+        android:layout_toStartOf="@+id/buyAgainstBuyEnding"
+        android:textColor="@color/buyAgainstColor"/>
+
+</RelativeLayout>

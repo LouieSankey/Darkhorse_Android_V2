@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="-"
+            android:layout_column="4"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/plusButton"
+            android:layout_toStartOf="@+id/plusButton"
+            android:id="@+id/subtractButton"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:layout_column="5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/plusButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Buy Points"
+        android:id="@+id/buyStatsSubLabel"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Negative TOs cannot bring your player&apos;s game total below zero."
+        android:id="@+id/tosAddendum"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12sp"
+        android:layout_below="@id/plusButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"/>
+
+
+</RelativeLayout>

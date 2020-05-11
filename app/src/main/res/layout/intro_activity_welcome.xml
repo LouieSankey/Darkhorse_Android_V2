@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity.IntroActivities.Welcome"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This game is about drafting a player then using your remaining fantasy money to buy him additional game stats."
+        android:id="@+id/textView43"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_above="@+id/toStatValues"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome"
+        android:id="@+id/textView45"
+        android:textSize="26sp"
+        android:layout_above="@+id/textView43"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/toStatValues"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Stat Values"
+        />
+
+</RelativeLayout>

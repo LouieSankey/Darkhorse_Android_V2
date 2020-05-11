@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.louissankey.darkhorselayouts">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.BuyAgainst"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Dashboard"/>
+        </activity>
+        <activity
+            android:name=".Activity.IntroActivities.StatValues"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.IntroActivities.Welcome"/>
+        </activity>
+        <activity
+            android:name=".Activity.IntroActivities.Welcome"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.IntroActivities.Splash"/>
+        </activity>
+        <activity
+            android:name=".Activity.IntroActivities.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.DraftList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Contests"/>
+        </activity>
+        <activity
+            android:name=".Activity.DraftPlayer"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Contests"/>
+        </activity>
+        <activity
+            android:name=".Activity.Dashboard"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.louissankey.darkhorselayouts.Activity.Contests"/>
+        </activity>
+        <activity
+            android:name=".Activity.Contests"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.IntroActivities.StatValues"/>
+        </activity>
+        <activity
+            android:name=".Activity.Results"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Dashboard"/>
+        </activity>
+        <activity
+            android:name=".Activity.Standings"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Dashboard"/>
+        </activity>
+        <activity
+            android:name=".Activity.IntroActivities.ExampleStatValues"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.IntroActivities.StatValues"/>
+        </activity>
+        <activity android:name=".Activity.BreakDown">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Standings"/>
+        </activity>
+    </application>
+
+</manifest>

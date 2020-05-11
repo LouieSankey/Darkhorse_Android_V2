@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_91bef0b037da82df619cd90fea2410e4db6d3b2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.0_2d2771c3652fc82f55b9fced96fd44cd88518d64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e523b84989d66f80586d3d19e172e1bfcff3718c">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7be22dadbf35d920123ad03fbb9445b81b1b32ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.github.eluleci/flatui/3.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d1089efa4a24767294278997764bea2fda31ccca">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.eluleci-flatui-3.0.0_c50ecc07ec7460658d97b770bc40d0474fab8dcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_4c59cb67fec840127746d17e609d0e0d7aafb2e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="aaf03367c74e30433076f6d0ba8b345b00ccb1ce">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_724669ab0b2969ca76f40e9eb46041f2eff2eb61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.0.0_13682dd88e68371d537db6e92ec732dddd63a90a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.0.0_a2714c8d1ee0d94527576f390ffffd9e888c39e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_88b580da6566a40b4141a7f247c54d2d2cb3d303/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.0_49cc1f2dda08a248135612628565729a05238b14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_cfd75db4e556f7733f975ef77437173d14293f20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/pl.tajchert/waitingdots/0.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cd83623b203ce6e77f4f1c7e38b295df89e0a6f3">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/pl.tajchert-waitingdots-0.2.0_a5205ebeb9946f2b4e732947a28a074d7a328de9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.0_05a6aa549109bbd49507c21f62b0736b2503a383/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.0_6df9a30cd6aeb116e1692be56359b0ec37ed6c8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_3375b9d08f5026c98ced7ffca05b4f3ec9653027/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.0_ae3467ebf538e89da571552850f8ab5cf78988af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/hanks.xyz/htextview-library/0.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5bf7696aa1cb22ad54191decdca420ec5265de4b">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/hanks.xyz-htextview-library-0.1.3_c8bd4daec7dc248637bbc5eb737d017f5e4ec099/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.romainpiel.shimmer/library/1.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="605019d3e4be636f5dd74c83d05198994e3a2ce9">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.romainpiel.shimmer-library-1.4.0_49f105850ac17c9cfd3c916861110dfe31a8df3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_babd0a5f129c130ec7e64c357451d00c28514308/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_e360ed1b5d9cebf469062473a501e8c1329d8a9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.0_031626d9f968321fe5f0f667e994e201f9d3baee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_e57ae2b7cf1eb274b629db08c24dc8466c4ad012/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.0_675bb78f02818646d1c6447baf243938e4313ff8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/louissankey/Desktop/DarkHorse/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_0e5f8d72f6d1642a5ba4e2fbb73f64ce054086d5/classes.dex" />
+    </item>
+
+</items>

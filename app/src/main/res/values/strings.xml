@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Darkhorse</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pts">120</string>
+    <string name="reb">225</string>
+    <string name="ast">280</string>
+    <string name="stl">470</string>
+    <string name="_3Pt">395</string>
+    <string name="to">460</string>
+    <string name="blk">425</string>
+    <string name="STAT_PRICES">STAT_PRICES</string>
+    <string name="DRAFT_LIST">DRAFT_LIST</string>
+    <string name="STANDINGS_ITEM">STANDINGS_ITEM</string>
+</resources>

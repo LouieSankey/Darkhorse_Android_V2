@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingRight="10dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:background="@color/material_grey_850">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerNameTextView"
+        android:textSize="20sp"
+        tools:text="Anthony Davis"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Price:"
+        android:id="@+id/valueLabelTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/playerNameTextView"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerGamePriceTextView"
+        tools:text="1195"
+        android:paddingLeft="5dp"
+        android:layout_alignTop="@+id/valueLabelTextView"
+        android:layout_toRightOf="@+id/valueLabelTextView"
+        android:layout_toEndOf="@+id/valueLabelTextView"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Funds Remaining:"
+        android:id="@+id/remainingCapLabel"
+        android:layout_below="@+id/valueLabelTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="6dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1000"
+        android:id="@+id/playerFundsPerMatchTextView"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/playerGamePriceTextView"
+        android:layout_toRightOf="@+id/remainingCapLabel"
+        android:layout_toEndOf="@+id/remainingCapLabel"
+        android:textSize="14sp"/>
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="username"
+        android:id="@+id/usernameTextView"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@color/draftedOpponent"
+        android:layout_alignTop="@+id/playerNameTextView"
+        android:layout_alignRight="@+id/playerVersusTextView"
+        android:layout_alignEnd="@+id/playerVersusTextView"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/right_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(HTM @ AWT)"
+        android:id="@+id/playerVersusTextView"
+        android:textSize="11sp"
+        android:paddingBottom="2dp"
+        android:layout_alignBottom="@+id/playerFundsPerMatchTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

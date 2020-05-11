@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="draftedOpponent">#ffc964</color>
+    <color name="user">#b5d0fd</color>
+    <color name="buyAgainstColor">#b5d0fd</color>
+    <color name="draftClock">#b5d0fd</color>
+</resources>
