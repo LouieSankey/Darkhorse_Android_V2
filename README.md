@@ -20,7 +20,7 @@ Darkhorse V3 is available for iPhone through TestFlight, which is Apple's beta t
 
 To install TestFlight go to https://testflight.apple.com/join/VvpAAjmW. Once installed, open TestFlight (or return to the download link again) to install Darkhorse.
 
-I've decided to keep the full Xcode/Swift repo private, but you can verfity that I developed it by looking at some of the questions in my StackOverflow history. 
+I've decided to keep the full Xcode/Swift repo private, but you can verfity that I developed it by looking at questions I previously asked on StackOverflow like this one. 
 https://stackoverflow.com/questions/42876739/swift-increment-label-with-stepper-in-tableview-cell 
 
 
