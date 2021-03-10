@@ -2,7 +2,7 @@
 
 ## Darkhorse
 
-![darkhorse-app-icon](https://user-images.githubusercontent.com/8163492/110709275-d30cf100-81b0-11eb-9493-a1991619f669.png)
+![darkhorse-app-icon-small](https://user-images.githubusercontent.com/8163492/110710539-e4ef9380-81b2-11eb-8eb6-48cead18d75f.png)
 
 ## Android V2 Prototype
 
@@ -20,9 +20,10 @@ Darkhorse V3 is available for iPhone through TestFlight, which is Apple's beta t
 
 To install TestFlight on an iPhone, go to https://testflight.apple.com/join/VvpAAjmW. Once installed, open TestFlight (or return to the download link again) to install Darkhorse.
 
-I've decided to keep the full Xcode/Swift repo private, but you can verfity that I developed it by looking through my StackOverflow questions like this one https://stackoverflow.com/questions/42876739/swift-increment-label-with-stepper-in-tableview-cell 
+I've decided to keep the full Xcode/Swift repo private, but you can verfity that I developed it by looking through my StackOverflow history, and questions like this one https://stackoverflow.com/questions/42876739/swift-increment-label-with-stepper-in-tableview-cell 
 
-IOS V.3 features real time contests with up to the minute scoring. 
+IOS V.3 features real time contests with up to the minute scoring. ![darkhorse-app-icon-small](https://user-images.githubusercontent.com/8163492/110710526-ddc88580-81b2-11eb-86fe-10fefa28a6d5.png)
+
 
 ![darkhorse_screenshots](https://user-images.githubusercontent.com/8163492/110709033-76a9d180-81b0-11eb-8b6a-da41fd522882.png)
 
