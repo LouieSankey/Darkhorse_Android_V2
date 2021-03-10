@@ -1,6 +1,6 @@
 
 
-## Darkhorse
+## Darkhorse - Daily Fantasy Sports
 
 ![darkhorse-app-icon-small](https://user-images.githubusercontent.com/8163492/110710539-e4ef9380-81b2-11eb-8eb6-48cead18d75f.png)
 
