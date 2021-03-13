@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.eluleci:flatui:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fff6308526a984e8378f7414f98117f0/flatui-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fff6308526a984e8378f7414f98117f0/flatui-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fff6308526a984e8378f7414f98117f0/flatui-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.eluleci/flatui/3.0.0/ea62669a39eec4e712756ec51da9d0e945537af/flatui-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.eluleci/flatui/3.0.0/9a5f06e178df3fd657fdd94ede0764d408d8ed0d/flatui-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

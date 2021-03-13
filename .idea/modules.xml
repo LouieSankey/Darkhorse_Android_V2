@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DarkHorse.iml" filepath="$PROJECT_DIR$/DarkHorse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Darkhorse_Android_Prototype.iml" filepath="$PROJECT_DIR$/.idea/modules/Darkhorse_Android_Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Darkhorse_Android_Prototype.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Darkhorse_Android_Prototype.app.iml" />
     </modules>
   </component>
 </project>
