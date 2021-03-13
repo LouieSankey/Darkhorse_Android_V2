@@ -9,7 +9,7 @@
 https://github.com/LouieSankey/Darkhorse_V1
 
 
-## Android V2 Prototype
+## Android V2
 
 This is 2nd complete (and fully testable) prototype for my fantasy sports game for Android.
 
