@@ -29,3 +29,7 @@ IOS V.3 features real time contests with up to the minute scoring.
 
 ![darkhorse_screenshots](https://user-images.githubusercontent.com/8163492/110709033-76a9d180-81b0-11eb-8b6a-da41fd522882.png)
 
+You can also check out my V1 origin proof of concept code here. It still compiles, but used parse.com as a backend so it might be tough to get past login/signup.
+
+https://github.com/LouieSankey/Darkhorse_V1
+
